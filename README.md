@@ -65,10 +65,10 @@ Copy the generated string of characters and paste it into the wavelog_api_key va
 ⚠️ CRITICAL REQUIREMENT FOR THE API TO WORK:
 Wavelog is very strict about station locations. When you log a contact using the ESP32 web interface, the "My Grid (Transmitter)" field must exactly match the Grid Locator configured in the Station Profile on your Wavelog account. If the grid locator you input on the ESP32 doesn't match the one Wavelog expects for that station_profile_id, the API will reject the QSO and it will fail to sync!
 
-💻 3. The Web Interface & Functionality
+#### 💻 3. The Web Interface & Functionality
 Once the board is flashed and running, connect to its WiFi (if offline) or your home network, and navigate to http://logger.local (or the IP address shown in the Serial Monitor).
 
-🛠️ The Top Toolbar
+##### 🛠️ The Top Toolbar
 ⚙️ Add WiFi Network: Opens a modal that scans for available WiFi networks. Enter the password, hit save, and the board will store it and reboot.
 
 🗑️ Manage Saved WiFis: Shows a list of all custom networks you've added.
@@ -77,12 +77,12 @@ Once the board is flashed and running, connect to its WiFi (if offline) or your 
 
 🔄 Reboot Board: A handy soft-reset button.
 
-📝 Logging a Contact
+###### 📝 Logging a Contact
 Smart Persistence: The My Grid and Frequency fields remember what you typed even if you refresh the page.
 
 Auto-Band (IARU Region 1): Just type the frequency in MHz (e.g., 14.250). The logger will automatically detect the frequency and fill in the "Band" field (e.g., 20m) for you!
 
-📡 Data Management & Syncing
+#######📡 Data Management & Syncing
 Download ADIF Log: Downloads a standard .adi file.
 
 Sync Offline QSOs to Wavelog: If you operated offline, the ESP32 stashed all your contacts in a secret queue. Once you connect the board to the internet, click this button to inject all the missing QSOs automatically.
@@ -95,6 +95,6 @@ ESP32 FIELD LOGGER © 2026 by EA1FWG (FWCube Labs)
 
 Licensed under CC BY-NC-ND 4.0
 
-🌐 Visit us at: www.fwcubelabs.radiogalena.es
+####### 🌐 Visit us at: www.fwcubelabs.radiogalena.es
 
 A special thanks to the Wavelog project for providing such a robust, open-source logging platform for the amateur radio community.

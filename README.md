@@ -1,10 +1,3 @@
-Tienes toda la razón, al copiar y pegar, el formato de Markdown se confunde cuando hay bloques de código dentro de otros bloques o cuando la estructura no está perfectamente delimitada.
-
-Aquí tienes el README.md corregido. He reestructurado las secciones para que GitHub interprete perfectamente dónde empieza y termina cada bloque de código, evitando errores de visualización.
-
-Puedes copiar este contenido directamente:
-
-Markdown
 # 📡 ESP32 Field Logger - FWCube Labs
 
 An ultra-lightweight, standalone field logger based on the ESP32, specifically designed for ham radio operators doing portable activations (POTA, SOTA, etc.). 

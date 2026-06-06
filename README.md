@@ -33,6 +33,9 @@ Default WiFi Setup
 C++
 // --- WiFi Setup ---
 wifiMulti.addAP("YOUR_WIFI_SSID", "YOUR_WIFI_PASSWORD");
+
+---
+
 🔑 2. Setting Up the Wavelog API
 Log into your Wavelog account.
 
@@ -45,7 +48,9 @@ Copy the key into the code.
 ⚠️ CRITICAL REQUIREMENT:
 The "My Grid (Transmitter)" field in the ESP32 UI must exactly match the Grid Locator configured in your Wavelog Station Profile. If they don't match, the API will reject the QSO!
 
-💻 3. The Web Interface & Functionality
+---
+
+**💻 3. The Web Interface & Functionality**
 Navigate to http://logger.local (or the IP shown in your Serial Monitor).
 
 🛠️ Toolbar
@@ -57,12 +62,17 @@ Navigate to http://logger.local (or the IP shown in your Serial Monitor).
 
 🔄 Reboot: Soft-reset the board.
 
-📡 Data Management
+---
+
+**📡 Data Management**
 Sync Offline QSOs: Sync pending QSOs when back online.
 
 Download ADIF: Export your log file.
 
 Erase Memory: Wipes the log. Always download your ADIF file first!
+
+
+---
 
 License and Credits ESP32 FIELD LOGGER © 2026 by EA1FWG (FWCube Labs)
 
